@@ -1,12 +1,11 @@
 {
     "compilerOptions": {
-        "target": "ESNext", // Updated to use the latest ECMAScript version
+        "target": "ES2022", // Updated to use the latest ECMAScript version
         "module": "commonjs",
         "strict": true,
         "esModuleInterop": true,
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
         "outDir": "./dist",
-        "rootDir": "./src",
     }
 }
