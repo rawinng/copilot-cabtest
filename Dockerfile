@@ -4,6 +4,8 @@ FROM node:14
 # Set the working directory in the container to /app
 WORKDIR /app
 
+LABEL org.opencontainers.image.source https://github.com/innovestx/test-github
+
 # Copy package.json and package-lock.json into the directory
 COPY package*.json ./
 

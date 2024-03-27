@@ -32,7 +32,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build the Docker image
-        run: docker build . -t ghcr.io/rawinng/gitlab-test:latest
+        run: docker build . -t ghcr.io/innovestx/test-github:latest
       - name: Push the Docker image
         run: echo ${{ secrets.GRTC }} | docker login ghcr.io -u rawinng --password-stdin
-      - run: docker push ghcr.io/rawinng/gitlab-test:latest
+      - run: docker push ghcr.io/innovestx/test-github:latest
