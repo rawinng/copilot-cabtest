@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node dist/app.js",
     "dev": "nodemon src/app.ts",
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "test": "jest"
   },
   "keywords": [
     "express",
@@ -20,6 +21,7 @@
   "devDependencies": {
     "@types/express": "^4.17.21",
     "@types/node": "^20.11.30",
+    "jest": "^29.7.0",
     "nodemon": "^3.1.0",
     "typescript": "^5.4.3"
   }
