@@ -1,5 +1,7 @@
 # Github Cab Test
 
+[![Node.js CI](https://github.com/rawinng/copilot-cabtest/actions/workflows/main.yml/badge.svg)](https://github.com/rawinng/copilot-cabtest/actions/workflows/main.yml)
+
 ### Description
 
 This is a brief description of what this project is about and what it does.
