@@ -1,6 +1,6 @@
 # Github Cab Test
 
-[![Node.js CI](https://github.com/rawinng/copilot-cabtest/actions/workflows/main.yml/badge.svg)](https://github.com/rawinng/copilot-cabtest/actions/workflows/main.yml)
+[![Node.js CI](https://github.com/innovestx/test-github/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/innovestx/test-github/actions/workflows/main.yml)
 
 ### Description
 
